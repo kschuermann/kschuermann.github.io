@@ -4101,7 +4101,7 @@ input.mdl-button[type="submit"] {
   box-sizing: border-box; }
 
 .mdl-card__media {
-  background-color: rgb(255,64,129);
+  background-color: rgb(255,255,255);
   background-repeat: repeat;
   background-position: 50% 50%;
   background-size: cover;
