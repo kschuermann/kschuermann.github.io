@@ -58,6 +58,16 @@
       margin-bottom: 40px;
       z-index: 900;
     }
+	.demo-card-image.mdl-card {
+		width: 360px;
+		height: 360px;
+		background: url('../images/Professional Picture.png') center / cover;
+		}
+		.demo-card-image > .mdl-card__actions {
+		height: 52px;
+		padding: 16px;
+		background: rgba(0, 0, 0, 0.2);
+		}
     </style>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -67,57 +77,43 @@
 				<!-- Title -->
 				<span class="mdl-layout-title">Kelby Schuermann</span>
 			</div>
-			<!-- Tabs -->
-			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-				<a href="#Home" class="mdl-layout__tab is-active">Home</a>
-				<a href="#Resume" class="mdl-layout__tab">Resume</a>
-				<a href="#Projects" class="mdl-layout__tab">Projects</a>
-				<a href="#Interests" class="mdl-layout__tab">Interests</a>
-				<a href="#Contact" class="mdl-layout__tab">Contact</a>
-			</div>
 		</header>
       <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="Home">
 			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 				<div class="mdl-card mdl-cell mdl-cell--12-col">
-				  <div class="mdl-card__title mdl-center">
-					<h2 class="mdl-card__title-text">Welcome</h2>
-				  </div>
-				  <div class="mdl-card__media mdl-color--white">
-					<img src="images/Professional Picture.png" width="360" height="360" border="0" style="padding-left:240px">
-				  </div>
-				  <div class="mdl-card__supporting-text">
-					Hello my name is Kelby Schuermann and welcome to my website. I am currently attending The University of Texas at Dallas studying Information Technology and Systems with an expected graduation date of May 2016.
-					I am currently living in the Dallas/Fort Worth Area and I am interested in Business Analysis, Front End Web Development, and IT Networking.
-				  </div>
-				</div>
-			</section>				
-        </div>
-        <div class="mdl-layout__tab-panel" id="Resume">
-			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-				<div class="mdl-card mdl-cell mdl-cell--12-col">
+					<div class="mdl-card__media mdl-color--white">
+						<img src="images/Professional Picture.png" width="360" height="360" border="0">
+					</div>
 					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
 					<ul>
 						<h4>Education</h4>
-						&nbsp;&nbsp;&nbsp;The University of Texas at Dallas
-						<br>&nbsp;&nbsp;&nbsp;Bachelor of Science in Information Technology and Systems
-						<br>&nbsp;&nbsp;&nbsp;Richardson, TX, Major GPA: 3.80, 2012-2016
-						<br><br>&nbsp;&nbsp;&nbsp;Bishop Gorman Regional Catholic High School
-						<br>&nbsp;&nbsp;&nbsp;High School Diploma
-						<br>&nbsp;&nbsp;&nbsp;Tyler, TX, 2008-2012
-						<br><br><h4>Work Experience</h4>
-						&nbsp;&nbsp;&nbsp;Business Systems Analyst Intern
-						<br>&nbsp;&nbsp;&nbsp;Epsilon
-						<br><br>&nbsp;&nbsp;&nbsp;Inventory Management
-						<br>&nbsp;&nbsp;&nbsp;E-Resalers, LLC
-						<br><br>&nbsp;&nbsp;&nbsp;Co-Founder
-						<br>&nbsp;&nbsp;&nbsp;Rocket Related Solutions
+						<h6>The University of Texas at Dallas</h6>
+						<ul>
+							B.S. Information Technology and Systems
+							<br>Richardson, TX, Major GPA: 3.80, 2012-2016
+						</ul>
+						<h6>Bishop Gorman Catholic High School</h6>
+						<ul>
+							High School Diploma
+							<br>Tyler, TX, 2008-2012
+						</ul>
+					</ul>
+					<ul>
+						<h4>Work Experience</h4>
+						<h6>Epsilon</h6>
+						<ul>
+							Business Systems Analyst 2 - 2017-2018
+							<br>Business Systems Analyst - 2016-2017
+							<br>Business Systems Analyst Intern - 2015
+						</ul>
+						<h6>E-Resalers, LLC</h6>
+						<ul>
+							Inventory Management - 2013-2016
+						</ul>
 					</ul>
 					</div>
 				</div>
 			</section>
-		</div>
-		<div class="mdl-layout__tab-panel" id="Projects">
 			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 				<div class="mdl-card mdl-cell mdl-cell--12-col">
 					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
@@ -158,90 +154,21 @@
 			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 				<div class="mdl-card mdl-cell mdl-cell--12-col">
 					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-						<ul>
-							<h4>This website!</h4>
-							<p>I decided to create my own website for the Professional Online Portfolio project in my Advanced Business Communications course.
-							This website was made using Material Design Lite CSS, JavaScript, JQuery, and HTML.</p>
-						</ul>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http://kschuermann.github.io" class="mdl-button">Home</a>
-					</div>
-				</div>
-			</section>
-		</div>
-		<div class="mdl-layout__tab-panel" id="Interests">
-			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-				<div class="mdl-card mdl-cell mdl-cell--12-col">
-					<div class="mdl-card__media mdl-color--white">
-						<img src="images/IMG_5742.png" width="860" height="460">
-					</div>
-					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-						<p>
-							I really enjoy being outdoors and I feel that the best way to experience the outdoors is through backpacking.
-							One of my favorite places to go backpacking is in the Rocky Mountains of New Mexico at a camp called Philmont.
-							I have been on two 100+ mile treks there in which you get to experience all types of terrain and wildlife, but most importantly a peaceful getaway from the city.
-						</p>	
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http://www.philmontscoutranch.org" class="mdl-button">Favorite Backpacking Spot</a>
-					</div>
-				</div>
-			</section>
-			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-				<div class="mdl-card mdl-cell mdl-cell--12-col">
-					<div class="mdl-card__media	mdl-color--white">
-						<img src="images/IMG_9959.png" width="860" height="460">
-					</div>
-					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-						<p>
-							Skydiving started out as this crazy thing I did with one of my friends for his birthday during the summer to a full blown hobby. I have been
-							on four tandem jumps so far and plan to take training courses to become certified in the future. It's not just the adrenaline rush that keeps me coming
-							back, it is the beautiful landscape that you see for miles on end as you freefall and glide in your parachute.
-						</p>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http://skydivedallas.com" class="mdl-button">Where I Like to Skydiving</a>
-					</div>
-				</div>
-			</section>
-			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-				<div class="mdl-card mdl-cell mdl-cell--12-col">
-					<div class="mdl-card__media mdl-color--white">
-					
-					</div>
-					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-						<p>
-						Ever since I started high school I have loved building computers and networks. This has led to my roommate and I creating a home networking lab
-						where we have several servers and switches creating the ultimate home network for testing all kinds of hardware and software.
-						</p>
-					</div>
-					<div class="mdl-card__actions">
-						<a href="http://www.reddit.com/r/homelab" class="mdl-button">Home Lab</a>
-					</div>
-				</div>
-			</section>
-		</div>
-		<div class="mdl-layout__tab-panel" id="Contact">
-			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-				<div class="mdl-card mdl-cell mdl-cell--12-col">
-					<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
 						<p><h4 class="mdl-cell mdl-cell--12-col">Kelby Schuermann</h4></p>
-						<p class="mdl-cell mdl-cell--12-col">Email: kelby@kelbyschuermann.com</p>
-						<p class="mdl-cell mdl-cell--12-col">Phone: 903-363-7562</p>
+						<p class="mdl-cell mdl-cell--12-col">Email: contact@kelbyschuermann.com</p>
 					</div>
 					<div class="mdl-card__actions">
-							<a href="http://www.twitter.com/KelbySchuermann" class="mdl-button mdl-js-button mdl-js-ripple-effect"  title="Twitter">Twitter</a>
 							<a href="https://www.linkedin.com/pub/kelby-schuermann/96/741/86a" class="mdl-button mdl-js-button mdl-js-ripple-effect" title="LinkedIn">LinkedIn</a>
 							<a href="https://github.com/kschuermann" class="mdl-button mdl-js-button mdl-js-ripple-effect" title="Github">Github</a>
 						
 					</div>
 				</div>
 			</section>
-		</div>
+			<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+			</section>
         <footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer__left-section">
-				Copyright Kelby Schuermann 2016
+				Copyright Kelby Schuermann 2018
 			</div>
 		</footer>
       </main>

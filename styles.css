@@ -82,6 +82,9 @@ html, body {
   color: inherit;
   width: calc(100% - 80px);
 }
+.mdl-demo .mdl-card .mdl-card__media {
+  margin: 0 auto;
+}
 .mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
   margin-top: 0;
   margin-bottom: 20px;
