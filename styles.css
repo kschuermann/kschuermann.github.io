@@ -254,3 +254,19 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+/* Fix layout to prevent scroll bounding issue */
+
+.mdl-layout__container {
+  position: static;
+}
+
+.mdl-layout {
+  height: auto;
+}
+
+.mdl-layout__header {
+  position: sticky;
+  display: flex;
+  top: 0;
+}
